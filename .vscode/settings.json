@@ -1,0 +1,13 @@
+{
+    "java.home": "/path/to/your/jdk",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.import.gradle.enabled": false,
+    "java.import.maven.enabled": false,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "%JAVA_HOME%\bin\bin\bin",
+            "default": true
+        }
+    ]
+}
