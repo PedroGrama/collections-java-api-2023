@@ -42,7 +42,7 @@ public class AgendaEventos {
       System.out.println("Não há eventos futuros na agenda.");
     }
   }
-
+  LocalDate dataAtual = LocalDate.now();
   public static void main(String[] args) {
     AgendaEventos agendaEventos = new AgendaEventos();
 
@@ -58,5 +58,6 @@ public class AgendaEventos {
 
     // Obtém e exibe o próximo evento na agenda
     agendaEventos.obterProximoEvento();
+    System.out.println(LocalDate.now());
   }
 }
